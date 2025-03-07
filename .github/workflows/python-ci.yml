@@ -28,7 +28,7 @@ jobs:
         pip install poetry
         poetry install
 
-    # Fourth step: run tests with Pytest
+    # Fourth step: run tests with
     - name: Run tests
       run: |
         poetry run pytest
